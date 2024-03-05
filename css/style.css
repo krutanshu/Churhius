@@ -1,0 +1,306 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.main-sliders {
+    background-image: url('../img/1920x980_slide2.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-btn {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.more-sermones {
+    color: darkgray;
+    margin-bottom: 70px;
+}
+
+.our-focus-btn {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    position: relative;
+    bottom: -45px;
+}
+
+.fbox {
+    
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.fbox-text {
+    position: absolute;
+    color: white;
+    bottom: -30px;
+    padding: 35px;
+}
+ 
+
+.hov-main :hover.fbox-text{
+    background-color: #a3172f;
+    opacity: 0.8;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.red-banner {
+    background-image: url(../img/1920x800_bg3.jpg);
+    padding: 70px;
+    color: white;
+}
+
+.upcoming-events {
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.upcoming-events-txt{
+    position: absolute;
+    font-size: 14px;
+    color: black;
+    left: 352px;
+    top: 190px;
+    text-align: left;
+}
+
+.countdown-sec{
+    color: #26212193;
+    background-color: white;
+    padding: 15px;
+    /* border: 1px darkgray; */
+    margin: 1px;
+}
+
+.countdown-amt{
+    color: #a3172f;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.upcoming-events-box{
+    background-color: white;
+    width: 94px;
+    padding: 25px;
+}
+
+.upcoming-events-box span{
+    padding: 15px;
+}
+
+.upe {
+    margin-left: 15px;
+}
+
+.whole {
+    padding-top: 5px;
+}
+
+.datee {
+    color: #b01933;
+}
+
+.dateee {
+    color: black;
+}
+
+.dateeee {
+    color: darkgray;
+}
+
+.mee {
+    margin-top: 35px;
+    color: darkgray;
+}
+
+.bannerr-btn {
+    text-decoration: none;
+    color: darkgray;
+    border: 2px solid darkgrey;
+}
+
+.heee {
+    color: maroon;
+    font-size: 50px;
+}
+
+.containerrr {
+    height: 50vh;
+    background-image: url(../img/containerrrbg.jpg);
+    align-items: center !important;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    color: maroon;
+}
+
+.our-ministers-txt {
+    position: absolute;
+    color: white;
+    /* top: 290px; */
+    /* padding-left: 150px; */
+    /* left: 170px; */
+    bottom: 50px;
+    padding-left: 150px;
+    /* padding: 150px; */
+}
+
+.our-ministers-txt a{
+    font-size: 35px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+}
+
+.our-ministers-img {
+    height: 100%;
+    background-repeat: no-repeat;
+        
+    }
+
+
+.hover-ministers :hover.our-ministers-img{
+    background-color: #cf0c2c;
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+    height: 100%;
+    width: 100%;
+    /* bottom: 0; */
+}
+
+.book-img{
+    background-image: url(../img/1920x800_bg4.jpg);
+    height: 45vh;
+    position: relative;
+}
+
+.bookt {
+    color: maroon;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    bottom: 170px;
+    left: 300px;
+    position: absolute;
+}
+
+.bookun {
+    color: #777;
+    font-family:  'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    left: 370px;
+    bottom: 70px;
+    position: absolute;
+}
+
+
+.Need-prayer {
+    background-image: url(../img/960x392_bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    color: white;
+    padding: 100px;
+}
+
+.Want-to-help {
+    background-image: url(../img/960x392_bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    color: white;
+    padding: 100px;
+}
+
+.down-app-desc {
+    color: #777;
+    font-family: 'Lato', sans-serif;
+}
+
+.follow-insta {
+    padding: 100px;
+}
+
+.email-logo-box{
+    padding: 12px;
+    background-color: rgb(113, 121, 210);
+    border: 1px solid black;
+    bottom: 3px;
+    position: relative;
+}
+
+.follow-insta-background {
+    background-color: #f7f7f7;
+}
+
+.contact-us-phone {
+    padding: 100px;
+}
+
+.contact-us-loc {
+    padding: 100px;
+    background-color: #f7f7f7;
+}
+
+.contact-us-mail {
+    padding: 100px;
+    background-color: #f0f0f0;
+}
+
+.newsletter {
+    background-color: #a3172f;
+    padding: 50px;
+}
+
+.newsletter-icon {
+    color: white;
+    font-size: 20px;
+}
+
+.footer-info {
+    background-color: #333;
+    color: white;
+    padding: 70px;
+}
+
+.footer-abtus-btn {
+    text-decoration: none;
+    color: red;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #3e3e3e;
+    padding: 15px;
+}
+
+.abt-us-footer a {
+    text-decoration: none;
+    color: white;
+}
